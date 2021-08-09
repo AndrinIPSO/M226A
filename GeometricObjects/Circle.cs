@@ -14,41 +14,28 @@ namespace GeometricObjects
     /// </remarks>
     public class Circle
     {
-        //Eigenschaften > Auf public um Sie zu Kapseln
-        private double XCoordinate;
-        private double YCoordinate;
-        private int Radius;
 
-        //Get
-        public double getX()
+        //Prop
+        public double XCoordinate { get; set; }
+
+
+        //Propfull
+        private double _YCoordinate;
+
+        public double YCoordinate
         {
-            return XCoordinate;
+            get { return _YCoordinate; }
+            set { _YCoordinate = value; }
         }
 
-        public double getY()
+        private int _Radius;
+
+        public int Radius
         {
-            return YCoordinate;
+            get { return _Radius; }
+            set { _Radius = value; }
         }
 
-        public double getRad()
-        {
-            return Radius;
-        }
 
-        //set
-        public void setX(double position)
-        {
-            XCoordinate = position;
-        }
-
-        public void setY(double position)
-        {
-            YCoordinate = position;
-        }
-
-        public void setRad(int rad)
-        {
-            Radius = rad;
-        }
     }
 }
