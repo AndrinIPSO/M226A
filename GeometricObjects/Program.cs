@@ -10,13 +10,22 @@ namespace GeometricObjects
     {
         static void Main(string[] args)
         {
-            Circle C1 = new Circle();
-            Circle C2 = new Circle(12, 13, 10);
-            C1.Move(10, 12, 2);
+            try
+            {
+                Circle C1 = new Circle();
+                Circle C2 = new Circle(12, 13, 10);
+                C1.Move(10, 12, 1);
 
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Fehler: {ex.Message}");
+            }
             //Console.WriteLine($"Fläche = {C1.getArea()}");
             //Console.WriteLine("Umfang = {0}", C1.getCircumference());
             Console.ReadLine();
+
+
         }
     }
 }
