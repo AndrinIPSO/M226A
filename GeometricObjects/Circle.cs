@@ -15,19 +15,11 @@ namespace GeometricObjects
     public class Circle
     {
 
-        //Prop
+        //Koordinaten in Autoprop
         public double XCoordinate { get; set; }
+        public double YCoordinate { get; set; }
 
-
-        //Propfull
-        private double _YCoordinate;
-
-        public double YCoordinate
-        {
-            get { return _YCoordinate; }
-            set { _YCoordinate = value; }
-        }
-
+        //Radiuss mit Propfull
         private int _Radius;
 
         public int Radius
