@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +27,10 @@ namespace GeometricObjects
 
             try
             {
+                Debug.Assert(Mathematik.Addition(1, 2) == 3);
+                
+
+                
                 Mathematik.Addition(1, 2);
                 Mathematik.Subtraktion(2, 1);
                 Mathematik.Multiplikation(3, 4);
