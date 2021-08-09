@@ -10,6 +10,7 @@ namespace GeometricObjects
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
