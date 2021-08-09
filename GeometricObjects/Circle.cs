@@ -14,12 +14,19 @@ namespace GeometricObjects
     /// </remarks>
     public class Circle
     {
-
-        //Koordinaten in Autoprop
+        /// <summary>
+        /// X Koordinate des Kreises mit Autoprop
+        /// </summary>
         public double XCoordinate { get; set; }
+
+        /// <summary>
+        /// Y Koordinate des Kreises
+        /// </summary>
         public double YCoordinate { get; set; }
 
-        //Radiuss mit Propfull
+        /// <summary>
+        /// Radius des Kreises mit Fullprop
+        /// </summary>
         private int _Radius;
 
         public int Radius
@@ -28,6 +35,36 @@ namespace GeometricObjects
             set { _Radius = value; }
         }
 
+        /// <summary>
+        /// Konstruktor (ctor)
+        /// </summary>
+        public Circle()
+        {
+
+        }
+
+        /// <summary>
+        /// Fläche wird berechnet
+        /// </summary>
+        /// <returns>
+        /// Fläche
+        /// </returns>
+        public double getArea()
+        {
+            double Area = Math.Pow(Radius, 2) * Math.PI;
+            return Area;
+        }
+
+        /// <summary>
+        /// Umfang berechnen
+        /// </summary>
+        /// <returns>
+        /// Umfang
+        /// </returns>
+        public double getCircumference()
+        {
+            return Radius * 2 * Math.PI;
+        }
 
     }
 }
