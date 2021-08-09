@@ -40,7 +40,9 @@ namespace GeometricObjects
         /// </summary>
         public Circle()
         {
-
+            Radius = 0;
+            XCoordinate = 0;
+            YCoordinate = 0;
         }
 
         /// <summary>
@@ -50,6 +52,7 @@ namespace GeometricObjects
         /// Radius
         /// </param>
         public Circle(int rad)
+            : this()
         {
             Radius = rad;
         }
@@ -64,6 +67,7 @@ namespace GeometricObjects
         /// Y Koordinate
         /// </param>
         public Circle(double x, double y)
+            : this()
         {
             XCoordinate = x;
             YCoordinate = y;
@@ -82,10 +86,10 @@ namespace GeometricObjects
         /// Radius
         /// </param>
         public Circle(double x, double y, int rad)
+            : this(rad)
         {
             XCoordinate = x;
             YCoordinate = y;
-            Radius = rad;
         }
 
         /// <summary>
