@@ -36,7 +36,7 @@ namespace GeometricObjects
         }
 
         /// <summary>
-        /// Konstruktor (ctor)
+        /// Leerer Kreis
         /// </summary>
         public Circle()
         {
@@ -113,6 +113,45 @@ namespace GeometricObjects
         public double getCircumference()
         {
             return Radius * 2 * Math.PI;
+        }
+
+        /// <summary>
+        /// Bewegen
+        /// </summary>
+        /// <param name="dx">
+        /// Delta X
+        /// </param>
+        /// <param name="dy">
+        /// Delta Y
+        /// </param>
+        public void Move(double dx, double dy)
+        {
+            XCoordinate += dx;
+            YCoordinate += dy;
+        }
+
+        /// <summary>
+        /// Bewegen mit Radius
+        /// </summary>
+        /// <param name="dx">
+        /// Delta X
+        /// </param>
+        /// <param name="dy">
+        /// Delta Y
+        /// </param>
+        /// <param name="drad">
+        /// Delta Radius
+        /// </param>
+        public void Move(double dx, double dy, int drad)
+        {
+            Move(dx, dy);
+            Radius += drad;
+        }
+
+        public void getAll()
+        {
+            Console.WriteLine("X: {0} Y: {1}", XCoordinate, YCoordinate);
+            Console.WriteLine("Radius: {0}", Radius);
         }
 
     }
