@@ -32,7 +32,13 @@ namespace GeometricObjects
         public int Radius
         {
             get { return _Radius; }
-            set { _Radius = value; }
+            set
+            {
+                if (value >= 0)
+                    _Radius = value;
+                else
+                    throw new Exception($"Radius inkorrekt: {value}");
+            }
         }
 
         /// <summary>
@@ -148,11 +154,7 @@ namespace GeometricObjects
             Radius += drad;
         }
 
-        public void getAll()
-        {
-            Console.WriteLine("X: {0} Y: {1}", XCoordinate, YCoordinate);
-            Console.WriteLine("Radius: {0}", Radius);
-        }
+
 
     }
 }
