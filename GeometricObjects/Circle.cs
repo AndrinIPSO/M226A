@@ -44,6 +44,51 @@ namespace GeometricObjects
         }
 
         /// <summary>
+        /// Kreis mit Radius
+        /// </summary>
+        /// <param name="rad">
+        /// Radius
+        /// </param>
+        public Circle(int rad)
+        {
+            Radius = rad;
+        }
+
+        /// <summary>
+        /// Kreis mit Koordinaten
+        /// </summary>
+        /// <param name="x">
+        /// X Koordinate
+        /// </param>
+        /// <param name="y">
+        /// Y Koordinate
+        /// </param>
+        public Circle(double x, double y)
+        {
+            XCoordinate = x;
+            YCoordinate = y;
+        }
+
+        /// <summary>
+        /// Kreis mit Koordinate und Radius
+        /// </summary>
+        /// <param name="x">
+        /// X Koordinate
+        /// </param>
+        /// <param name="y">
+        /// Y Koordinate
+        /// </param>
+        /// <param name="rad">
+        /// Radius
+        /// </param>
+        public Circle(double x, double y, int rad)
+        {
+            XCoordinate = x;
+            YCoordinate = y;
+            Radius = rad;
+        }
+
+        /// <summary>
         /// Fläche wird berechnet
         /// </summary>
         /// <returns>
