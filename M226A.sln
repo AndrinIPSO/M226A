@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B1", "B1", "{F9DF9367-CF1D-435F-9048-48BA3329ADA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B2", "B2", "{A705F50D-0CF4-4FD9-AE43-0744E64D1344}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B3", "B3", "{BB3EEB28-05BE-4F20-B09F-35CF89F2A5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricObjects", "GeometricObjects\GeometricObjects.csproj", "{B492ED10-754E-49DF-ABCD-A8659B1EEF5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B492ED10-754E-49DF-ABCD-A8659B1EEF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B492ED10-754E-49DF-ABCD-A8659B1EEF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B492ED10-754E-49DF-ABCD-A8659B1EEF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B492ED10-754E-49DF-ABCD-A8659B1EEF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B492ED10-754E-49DF-ABCD-A8659B1EEF5E} = {F9DF9367-CF1D-435F-9048-48BA3329ADA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9D72341-67D6-4315-B50B-D74B9509FC8C}
+	EndGlobalSection
+EndGlobal
