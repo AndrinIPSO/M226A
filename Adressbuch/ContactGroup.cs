@@ -8,13 +8,16 @@ namespace Adressbuch
 {
     class ContactGroup
     {
-        private string _name;
+        protected string _name;
 
         public string Name
         {
             get { return _name; }
             set { _name = value; }
         }
+
+
+        protected List<ContactGroup> Child { get; set; }
 
     }
 }

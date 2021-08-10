@@ -8,6 +8,5 @@ namespace Adressbuch
 {
     class Contact
     {
-        List<ContactGroup> GroupedBy { get; set; }
     }
 }

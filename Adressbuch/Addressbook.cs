@@ -16,9 +16,9 @@ namespace Adressbuch
             set { _name = value; }
         }
 
-        public List<Contact> Contains { get; set; }
+        protected List<Contact> Contains { get; set; }
 
-        public List<ContactGroup> ConntainsGroup { get; set; }
+        protected List<ContactGroup> ConntainsGroup { get; set; }
 
 
 
