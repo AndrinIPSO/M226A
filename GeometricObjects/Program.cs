@@ -15,6 +15,7 @@ namespace GeometricObjects
             {
                 Circle C1 = new Circle();
                 Circle C2 = new Circle(12, 13, 10);
+                Circle C3 = new Circle(1);
                 C1.Move(10, 12, 1);
 
             }
