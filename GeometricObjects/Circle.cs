@@ -63,21 +63,7 @@ namespace GeometricObjects
             Radius = rad;
         }
 
-        /// <summary>
-        /// Kreis mit Koordinaten
-        /// </summary>
-        /// <param name="x">
-        /// X Koordinate
-        /// </param>
-        /// <param name="y">
-        /// Y Koordinate
-        /// </param>
-        public Circle(double x, double y)
-            : this()
-        {
-            XCoordinate = x;
-            YCoordinate = y;
-        }
+
 
         /// <summary>
         /// Kreis mit Koordinate und Radius
