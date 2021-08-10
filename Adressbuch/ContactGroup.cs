@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Adressbuch
 {
-    class Addressbook
+    class ContactGroup
     {
         private string _name;
 
@@ -15,12 +15,6 @@ namespace Adressbuch
             get { return _name; }
             set { _name = value; }
         }
-
-        public List<Contact> Contains { get; set; }
-
-        public List<ContactGroup> ConntainsGroup { get; set; }
-
-
 
     }
 }
