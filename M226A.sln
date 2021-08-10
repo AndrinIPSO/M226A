@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleLibrary", "CircleLibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleApp", "CircleApp\CircleApp.csproj", "{12FA71D3-5130-48CB-8A01-4C5AEAB1AEA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adressbuch", "Adressbuch\Adressbuch.csproj", "{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{12FA71D3-5130-48CB-8A01-4C5AEAB1AEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12FA71D3-5130-48CB-8A01-4C5AEAB1AEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12FA71D3-5130-48CB-8A01-4C5AEAB1AEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{8287928C-288D-4606-B11A-784F12FD0C54} = {F9DF9367-CF1D-435F-9048-48BA3329ADA6}
 		{E9A3EA6F-826E-46FD-AC31-26F02B1129F6} = {A705F50D-0CF4-4FD9-AE43-0744E64D1344}
 		{12FA71D3-5130-48CB-8A01-4C5AEAB1AEA3} = {A705F50D-0CF4-4FD9-AE43-0744E64D1344}
+		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB} = {A705F50D-0CF4-4FD9-AE43-0744E64D1344}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9D72341-67D6-4315-B50B-D74B9509FC8C}
