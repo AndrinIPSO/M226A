@@ -16,7 +16,7 @@ namespace Adressbuch
             set { _name = value; }
         }
 
-
+        protected List<Contact> Hät { get; set; }
         protected List<ContactGroup> Child { get; set; }
 
     }
