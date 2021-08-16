@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Veranstaltungsplaner.Veranstaltungsplan">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Veranstaltungsplan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Saapläne" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Veranstaltungsplaner.Platz">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAACAAAAgAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Platz.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="gehört" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Veranstaltungsplaner.Saalplan">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAIAAAAAAAAAAAAACAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Saalplan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Spielstätte" />
+      <Property Name="Veranstaltung" />
+      <Property Name="Veranstaltungsplan" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Plätze" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Veranstaltungsplaner.Spielstätte">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Spielstätte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Veranstaltungsplaner.Veranstaltung">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAIAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Veranstaltung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
