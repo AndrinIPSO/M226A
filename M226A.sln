@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleApp", "CircleApp\Circ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adressbuch", "Adressbuch\Adressbuch.csproj", "{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonAuto", "PersonAuto\PersonAuto.csproj", "{6ABD1724-0CEB-4844-ADEE-C296FD3B9FAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABD1724-0CEB-4844-ADEE-C296FD3B9FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABD1724-0CEB-4844-ADEE-C296FD3B9FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABD1724-0CEB-4844-ADEE-C296FD3B9FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABD1724-0CEB-4844-ADEE-C296FD3B9FAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{E9A3EA6F-826E-46FD-AC31-26F02B1129F6} = {A705F50D-0CF4-4FD9-AE43-0744E64D1344}
 		{12FA71D3-5130-48CB-8A01-4C5AEAB1AEA3} = {A705F50D-0CF4-4FD9-AE43-0744E64D1344}
 		{9147F8AD-0E1F-4EF1-B2C1-A4CBACF7ECDB} = {A705F50D-0CF4-4FD9-AE43-0744E64D1344}
+		{6ABD1724-0CEB-4844-ADEE-C296FD3B9FAF} = {BB3EEB28-05BE-4F20-B09F-35CF89F2A5FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9D72341-67D6-4315-B50B-D74B9509FC8C}
