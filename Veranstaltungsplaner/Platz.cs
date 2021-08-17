@@ -11,8 +11,17 @@ namespace Veranstaltungsplaner
         public int Reihe { get; set; }
         public int Nummer { get; set; }
 
-        public Saalplan gehört { get; set; } = new Saalplan();
+        public Platz()
+        {
 
+        }
+
+        public Platz(int reihe, int nummer)
+            :this()
+        {
+            this.Reihe = reihe;
+            this.Nummer = nummer;
+        }
         public string Bestätigt()
         {
             return "YESSIR";

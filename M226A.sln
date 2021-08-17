@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppStart", "WpfAppStart\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veranstaltungsplaner", "Veranstaltungsplaner\Veranstaltungsplaner.csproj", "{0FB1BD9D-CCD8-4C65-B03C-307A96988F02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B4", "B4", "{EDA95660-A82F-4F8C-80DE-45B0F40BFD64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

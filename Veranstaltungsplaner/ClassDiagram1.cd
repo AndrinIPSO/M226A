@@ -13,23 +13,19 @@
   <Class Name="Veranstaltungsplaner.Platz">
     <Position X="1.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAAAAAAACAAAAgAAAAAAAAAAAAQAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>Platz.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="gehört" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="Veranstaltungsplaner.Saalplan">
     <Position X="6.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAIAAAAIAAAAAAAAAAAAACAAAAAAAAAAEAAAA=</HashCode>
+      <HashCode>AAAAAAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
       <FileName>Saalplan.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Spielstätte" />
       <Property Name="Veranstaltung" />
-      <Property Name="Veranstaltungsplan" />
+      <Property Name="Spielstätte" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Plätze" />

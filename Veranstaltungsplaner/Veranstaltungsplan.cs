@@ -8,6 +8,6 @@ namespace Veranstaltungsplaner
 {
     public class Veranstaltungsplan
     {
-        List<Saalplan> Saapläne { get; set; } = new List<Saalplan>();
+        public List<Saalplan> Saapläne { get; set; } = new List<Saalplan>();
     }
 }

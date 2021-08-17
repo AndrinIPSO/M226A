@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="Start" Height="242" Width="268" Icon="birbdance.gif" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button x:Name="okbutton" Content="OK" HorizontalAlignment="Left" Margin="158,38,0,0" VerticalAlignment="Top" Width="89" Click="okbutton_Click" Cursor=""/>
+        <Button x:Name="okbutton" Content="OK" HorizontalAlignment="Left" Margin="158,38,0,0" VerticalAlignment="Top" Width="89" Click="okbutton_Click" Cursor="" KeyDown="press"/>
         <Label x:Name="lb1" Content="Bitte Namen eingeben:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="143"/>
         <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" TextChanged="tb1_TextChanged" KeyDown="tb1_KeyDown"/>
+        <Label Content="Abiyan&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Height="39" Width="84"/>
     </Grid>
 </Window>

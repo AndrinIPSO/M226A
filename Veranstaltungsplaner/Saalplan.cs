@@ -10,8 +10,7 @@ namespace Veranstaltungsplaner
     {
         public Veranstaltung Veranstaltung { get; set; } = new Veranstaltung();
         public Spielstätte Spielstätte { get; set; } = new Spielstätte();
-        public Veranstaltungsplan Veranstaltungsplan { get; set; } = new Veranstaltungsplan();
 
-        List<Platz> Plätze { get; set; } = new List<Platz>();
+        public List<Platz> Plätze { get; set; } = new List<Platz>();
     }
 }
