@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProductCatalogWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductCatalogWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="listboxone" HorizontalAlignment="Left" Height="411" VerticalAlignment="Top" Width="284" />
+        <Button x:Name="adproductbt" Content="Produkt Hinzufügen" HorizontalAlignment="Left" Margin="402,149,0,0" VerticalAlignment="Top" Width="381" Height="24" Click="adproductbt_Click"/>
+        <TextBox x:Name="ppricetb" HorizontalAlignment="Left" Height="30" Margin="402,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381"/>
+        <Label x:Name="ppricelb" Content="Produkt Preis:" HorizontalAlignment="Left" Margin="402,83,0,0" VerticalAlignment="Top" Width="381"/>
+        <TextBox x:Name="pnametb" HorizontalAlignment="Left" Height="30" Margin="402,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381"/>
+        <Label x:Name="pnamelb" Content="Produkt Name:" HorizontalAlignment="Left" Margin="402,10,0,0" VerticalAlignment="Top" Width="381"/>
+        <ListBox x:Name="listboxtwo" HorizontalAlignment="Left" Height="411" Margin="284,0,0,0" VerticalAlignment="Top" Width="113"/>
+
+    </Grid>
+</Window>
