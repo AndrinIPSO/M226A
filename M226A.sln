@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog", "ProductCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogWPF", "ProductCatalogWPF\ProductCatalogWPF.csproj", "{E49916DC-48D2-4BE7-AF59-6CAD7B59953B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathe.Test", "Mathe.Test\Mathe.Test.csproj", "{5672B911-0C9A-4AD8-ACA0-8CB37D3CA4DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{E49916DC-48D2-4BE7-AF59-6CAD7B59953B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E49916DC-48D2-4BE7-AF59-6CAD7B59953B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E49916DC-48D2-4BE7-AF59-6CAD7B59953B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5672B911-0C9A-4AD8-ACA0-8CB37D3CA4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5672B911-0C9A-4AD8-ACA0-8CB37D3CA4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5672B911-0C9A-4AD8-ACA0-8CB37D3CA4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5672B911-0C9A-4AD8-ACA0-8CB37D3CA4DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{0FB1BD9D-CCD8-4C65-B03C-307A96988F02} = {BB3EEB28-05BE-4F20-B09F-35CF89F2A5FA}
 		{8E28EAA2-5E4B-4B9A-AE0F-C1145E587890} = {EDA95660-A82F-4F8C-80DE-45B0F40BFD64}
 		{E49916DC-48D2-4BE7-AF59-6CAD7B59953B} = {EDA95660-A82F-4F8C-80DE-45B0F40BFD64}
+		{5672B911-0C9A-4AD8-ACA0-8CB37D3CA4DB} = {F9DF9367-CF1D-435F-9048-48BA3329ADA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9D72341-67D6-4315-B50B-D74B9509FC8C}
