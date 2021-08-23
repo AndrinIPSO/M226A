@@ -55,9 +55,8 @@ namespace T2
         /// <param name="Title"></param>
         /// <param name="Barcode"></param>
         public Book(string ISBN, string Title, string Barcode)
+            :this(ISBN, Title)
         {
-            this.Title = Title;
-            this.ISBN = ISBN;
             this.Barcode = Barcode;
         }
         /// <summary>

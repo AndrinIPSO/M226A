@@ -43,7 +43,7 @@ namespace T2
         /// </summary>
         public void Clear()
         {
-
+            Book.Clear();
         }
 
         /// <summary>
